@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layoutDirection="ltr">
+
+    <TextView
+        android:id="@+id/dialog_colors_preview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/saved_colors"
+        android:textSize="16sp"
+        android:paddingBottom="10dp" />
+
+    <EditText
+        android:id="@+id/dialog_palette_name_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_palette_name"
+        android:inputType="textPersonName" />
+    <EditText
+        android:id="@+id/dialog_palette_description_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_description"
+        android:inputType="textPersonName" />
+</LinearLayout>

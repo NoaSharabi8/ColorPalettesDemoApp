@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_profile"
+        android:title="@string/profile"
+        android:icon="@drawable/ic_profile"
+        android:layoutDirection="ltr"/>
+
+    <item
+        android:id="@+id/nav_privacy"
+        android:title="@string/privacy"
+        android:icon="@drawable/ic_privacy"
+        android:layoutDirection="ltr"/>
+
+    <item
+        android:id="@+id/nav_payment"
+        android:title="@string/payment"
+        android:icon="@drawable/ic_payment"
+        android:layoutDirection="ltr"/>
+
+
+    <item
+        android:id="@+id/nav_design"
+        android:title="@string/design"
+        android:icon="@drawable/ic_design"
+        android:layoutDirection="ltr"/>
+
+    <item
+        android:id="@+id/nav_logout"
+        android:title="@string/log_out"
+        android:icon="@drawable/ic_logout"
+        android:layoutDirection="ltr"/>
+
+</menu>

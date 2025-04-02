@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    android:padding="16dp"
+    android:layoutDirection="ltr">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/create_palette_BTN_back"
+            style="@style/Widget.Material3.Button.Icon"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:iconTint="@null"
+            android:backgroundTint="#f5f5f5"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            app:icon="@drawable/ic_back"
+            app:iconGravity="textEnd"
+            app:iconSize="45dp" />
+
+        <TextView
+            android:id="@+id/create_palette_TV_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/back"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif-light"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/create_palette_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/create_your_own_palette"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#2B2B2B"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="10dp"/>
+
+    <com.skydoves.colorpickerview.ColorPickerView
+        android:id="@+id/create_palette_colorPickerView"
+        android:layout_width="330dp"
+        android:layout_height="330dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp" />
+
+    <com.skydoves.colorpickerview.sliders.BrightnessSlideBar
+        android:id="@+id/create_palette_brightnessSlideBar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="16dp" />
+
+    <com.skydoves.colorpickerview.AlphaTileView
+        android:id="@+id/create_palette_flag_color"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/create_palette_flag_color_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="#FFFFFF"
+        android:textSize="16sp"
+        android:textColor="#333333"
+        android:layout_gravity="center" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/create_palette_btn_add_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Color To Palette"
+        android:textSize="20sp"
+        android:backgroundTint="#977ABF"
+        android:textColor="@android:color/white" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/create_palette_btn_save_palette"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save_palette"
+        android:textSize="20sp"
+        android:backgroundTint="#977ABF"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>

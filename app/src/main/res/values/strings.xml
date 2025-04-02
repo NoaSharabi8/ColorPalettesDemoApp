@@ -1,3 +1,40 @@
 <resources>
     <string name="app_name">ColorPalettesDemoApp</string>
+    <string name="let_s_find_nyour_time" translatable="false">Let\'s Find\nYour Time !</string>
+    <string name="back" translatable="false">Back</string>
+    <string name="create_your_own_palette" translatable="false">Create Your Own Palette</string>
+    <string name="save_palette" translatable="false">Save Palette</string>
+    <string name="display" translatable="false">Display</string>
+    <string name="theme" translatable="false">Theme</string>
+    <string name="create_new_palette" translatable="false">Create New Palette</string>
+    <string name="profile" translatable="false">Profile</string>
+    <string name="privacy" translatable="false">Privacy</string>
+    <string name="payment" translatable="false">Payment</string>
+    <string name="design" translatable="false">Design</string>
+    <string name="log_out" translatable="false">Log Out</string>
+    <string name="metime" translatable="false">meTime</string>
+    <string name="enter_palette_name" translatable="false">Enter Palette Name</string>
+    <string name="new_appointment" translatable="false">New Appointment</string>
+    <string name="my_appointments" translatable="false">My Appointments</string>
+    <string name="your_next_appointment" translatable="false">Your Next Appointment</string>
+    <string name="hello_noa_sharabi" translatable="false">Hello Noa Sharabi</string>
+    <string name="open" translatable="false">Open</string>
+    <string name="close" translatable="false">Close</string>
+    <string name="saved_colors" translatable="false">Saved Colors</string>
+
+
+    <string name="home_TV_info" translatable="false">
+    <![CDATA[
+    <b>Pedicure</b><br/>
+    Date: 13/2/2025<br/>Start: 10:00
+    <b><p style="text-align:center;"><i>Gal\'s Nails</i></p></b>
+    ]]>
+</string>
+
+    <string name="exit">Exit</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="trivia">Trivia</string>
+    <string name="question">Question</string>
+    <string name="enter_description" translatable="false">Enter Description</string>
 </resources>

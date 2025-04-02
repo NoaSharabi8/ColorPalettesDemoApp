@@ -1,5 +1,9 @@
 [versions]
 agp = "8.8.0"
+colorpalettesdemoapp = "Tag"
+colorpalettesdemoappVersion = "1.0.1"
+colorpickerpreference = "2.0.0"
+colorpickerview = "2.3.0"
 converterGson = "latest.version"
 junit = "4.13.2"
 junitVersion = "1.2.1"
@@ -11,6 +15,10 @@ constraintlayout = "2.2.1"
 retrofit = "2.9.0"
 
 [libraries]
+colorpalettesdemoapp = { module = "com.github.NoaSharabi8:ColorPalettesDemoApp", version.ref = "colorpalettesdemoapp" }
+colorpalettesdemoapp-v101 = { module = "com.github.NoaSharabi8:ColorPalettesDemoApp", version.ref = "colorpalettesdemoappVersion" }
+colorpickerpreference = { module = "com.github.skydoves:colorpickerpreference", version.ref = "colorpickerpreference" }
+colorpickerview = { module = "com.github.skydoves:colorpickerview", version.ref = "colorpickerview" }
 converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "retrofit" }
 converter-gson-vlatestversion = { module = "com.squareup.retrofit2:converter-gson", version.ref = "converterGson" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
@@ -24,4 +32,6 @@ retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
+android-library = { id = "com.android.library", version.ref = "agp" }
+maven-publish = { id = "maven-publish" }
 
